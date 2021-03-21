@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     Toast.makeText(this, "IN: "+value+"\n\nCript: "+encryptedValue+"Decript: "+decryptedValue, Toast.LENGTH_LONG).show();
 
     TextView textView = (TextView) findViewById(R.id.textView);
-    textView.setText("Stringa in ingresso: "+value+"\nStringa Criptata: "+encryptedValue+"\nStringa Decriptata: "+decryptedValue);
+    textView.setText("Stringa in ingresso: "+value+"\n\nStringa Criptata: "+encryptedValue+"\nStringa Decriptata: "+decryptedValue);
   }
 }
 
